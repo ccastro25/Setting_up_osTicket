@@ -19,6 +19,7 @@ Absolutely, here's a well-formatted version for your `README.md` on GitHub:
 
 ### 2. Test Localhost
 - Open any browser and type `localhost` or `127.0.0.1`. You should see the IIS welcome page.
+![iis welcome screen](https://github.com/user-attachments/assets/134ff0c0-a897-435b-ab28-744507391d56)
 
 ---
 
