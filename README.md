@@ -12,7 +12,7 @@
    - Expand **Application Development Features** and select **CGI**.
    - Expand **Common HTTP Features** and select all.
 
-6. **Testing localhost Setup** Open any browser and type `localhost` or `127.0.0.1` to see the IIS welcome page.
+6. **Testing localhost Setup**: Open any browser and type `localhost` or `127.0.0.1` to see the IIS welcome page.
 
 ### 2. Download and Install PHP
 
