@@ -29,6 +29,7 @@ Absolutely, here's a well-formatted version for your `README.md` on GitHub:
 3. Extract files:
    - Right-click the downloaded ZIP file and select `Extract All`.
    - Create a folder `C:\php` and extract the files there.
+![create php folder](https://github.com/user-attachments/assets/8ac62f73-3216-4eb4-84aa-1cbde2f96176)
 
 ### 4. Install PHP Manager
 - Download PHP Manager from [Google Drive](https://drive.google.com/file/d/1qyZMk_YTizMGJMVULN_TtCwVY9sxw9lz/view?usp=sharing%3Eis).
