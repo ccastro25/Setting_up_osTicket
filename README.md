@@ -1,21 +1,16 @@
-
+# 
 
 ## Steps
 
-### 1. Enable IIS on Windows, Setting Up Localhost
+### 1. Enable IIS on Windows ,Setting Up Localhost
 
 1. Go to **Control Panel > Programs > Programs and Features**.
-   ![Control Panel Programs](images/control_panel_programs.png)
 2. Click on **Turn Windows features on or off**.
-   ![Turn Windows Features On or Off](images/turn_windows_features_on_or_off.png)
 3. Expand **Internet Information Services**.
 4. Expand **Web Management Tools** and select **IIS Management Console**.
-   ![IIS Management Console](images/iis_management_console.png)
 5. Expand **World Wide Web Services**:
    - Expand **Application Development Features** and select **CGI**.
-     ![Application Development Features](images/application_development_features.png)
    - Expand **Common HTTP Features** and select all.
-     ![Common HTTP Features](images/common_http_features.png)
 
 6. Open any browser and type `localhost` or `127.0.0.1` to see the IIS welcome page.
 
@@ -23,7 +18,6 @@
 
 1. Visit the [PHP Downloads Page](https://windows.php.net/download#php-8.2).
 2. Download the ZIP: **PHP 8.2 (8.2.26) VS16 x64 Non Thread Safe**.
-   ![PHP Downloads](images/php_download.png)
 3. Extract the files:
    - Right-click the downloaded ZIP file and select **Extract All**.
    - Create a folder `C:\php` and extract the files there.
