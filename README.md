@@ -45,7 +45,7 @@ Absolutely, here's a well-formatted version for your `README.md` on GitHub:
 
 
 ### 7. Download MySQL Community Edition
-![mysql](https://github.com/user-attachments/assets/81ee9c52-008a-4a61-a22f-89a5c732a497)
+
 1. Go to [MySQL Downloads](https://dev.mysql.com/downloads/file/?id=536356).
    ![image](https://github.com/user-attachments/assets/ed53bed8-e406-42e7-ba15-eba8a6c391a6)
 2. Select `Custom` setup.
