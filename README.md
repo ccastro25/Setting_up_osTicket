@@ -36,6 +36,7 @@ Absolutely, here's a well-formatted version for your `README.md` on GitHub:
 ![PhpManager](https://github.com/user-attachments/assets/0a01c983-4d3a-4aa6-9b2b-c4a180643e90)
 ### 5. Install URL Rewrite Module
 - Download from [Microsoft IIS](https://www.iis.net/downloads/microsoft/url-rewrite) and select the `x64 installer`.
+![UrlRewrite](https://github.com/user-attachments/assets/3b58f585-36a8-4205-a52b-8041f4cb5004)
 
 
 ### 6. Install Microsoft Visual C++ Redistributable
