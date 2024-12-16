@@ -1,11 +1,4 @@
-# Setting_up_osTicket
-This guide details the requirements and steps for installing the open-source help desk ticketing system, osTicket
-Absolutely, here's a well-formatted version for your `README.md` on GitHub:
-
----
-
-# Setting Up Localhost
-
+Setting Up Localhost
 Steps
 1. Enable IIS on Windows
 Go to Control Panel > Programs > Programs and Features.
@@ -25,27 +18,27 @@ Expand Common HTTP Features and select all.
 Open any browser and type localhost or 127.0.0.1 to see the IIS welcome page.
 
 2. Download and Install PHP
-Visit the PHP Downloads page.
+Visit the PHP Downloads Page.
 
-Download the ZIP file: PHP 8.2 (8.2.26) VS16 x64 Non Thread Safe.
+Download the ZIP: PHP 8.2 (8.2.26) VS16 x64 Non Thread Safe.
 
 Extract the files:
 
 Right-click the downloaded ZIP file and select Extract All.
 
-Create a folder named C:\php and extract the files there.
+Create a folder C:\php and extract the files there.
 
 3. Install PHP Manager
 Download PHP Manager from Google Drive.
 
 4. Install URL Rewrite Module
-Download from Microsoft IIS and select the x64 installer.
+Download the URL Rewrite Module from Microsoft IIS and select the x64 installer.
 
 5. Install Microsoft Visual C++ Redistributable
-Visit the Microsoft Visual C++ Redistributable page and download the latest x64 version.
+Visit the Microsoft Visual C++ Redistributable Page and download the latest x64 version.
 
 6. Download and Install MySQL Community Edition
-Go to MySQL Downloads.
+Go to the MySQL Downloads Page.
 
 When the "Choosing setup type" screen pops up, select Custom, then click Next.
 
@@ -89,7 +82,7 @@ Click Apply.
 Click on the Schema tab under Navigator, and osticket should be there.
 
 8. Download and Configure osTicket
-Download osTicket from GitHub.
+Download osTicket from GitHub Releases.
 
 Unzip and move the upload folder to C:\inetpub\wwwroot\osTicket.
 
