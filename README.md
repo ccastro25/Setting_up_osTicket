@@ -6,87 +6,174 @@ Absolutely, here's a well-formatted version for your `README.md` on GitHub:
 
 # Setting Up Localhost
 
-## Steps:
+Steps
+1. Enable IIS on Windows
+Go to Control Panel > Programs > Programs and Features.
 
-### 1. Enable IIS on Windows
-1. Go to `Control Panel > Programs > Programs and Features`.
-2. Click on `Turn Windows features on or off`.
-3. Expand `Internet Information Services`.
-4. Expand `Web Management Tools` and select `IIS Management Console`.
-5. Expand `World Wide Web Services`, then:
-   - Expand `Application Development Features` and select `CGI`.
-   - Expand `Common HTTP Features` and select all.
+Click on Turn Windows features on or off.
 
-### 2. Test Localhost
-- Open any browser and type `localhost` or `127.0.0.1`. You should see the IIS welcome page.
-![iis welcome screen](https://github.com/user-attachments/assets/134ff0c0-a897-435b-ab28-744507391d56)
+Expand Internet Information Services.
 
----
+Expand Web Management Tools and select IIS Management Console.
 
-### 3. Download and Install PHP
-1. Visit [PHP Downloads](https://windows.php.net/download#php-8.2).
-2. Download `PHP 8.2 (8.2.26) VS16 x64 Non Thread Safe`.
-3. Extract files:
-   - Right-click the downloaded ZIP file and select `Extract All`.
-   - Create a folder `C:\php` and extract the files there.
-![create php folder](https://github.com/user-attachments/assets/8ac62f73-3216-4eb4-84aa-1cbde2f96176)
+Expand World Wide Web Services:
 
-### 4. Install PHP Manager
-- Download PHP Manager from [Google Drive](https://drive.google.com/file/d/1qyZMk_YTizMGJMVULN_TtCwVY9sxw9lz/view?usp=sharing%3Eis).
-![PhpManager](https://github.com/user-attachments/assets/0a01c983-4d3a-4aa6-9b2b-c4a180643e90)
-### 5. Install URL Rewrite Module
-- Download from [Microsoft IIS](https://www.iis.net/downloads/microsoft/url-rewrite) and select the `x64 installer`.
-![UrlRewrite](https://github.com/user-attachments/assets/3b58f585-36a8-4205-a52b-8041f4cb5004)
+Expand Application Development Features and select CGI.
 
+Expand Common HTTP Features and select all.
 
-### 6. Install Microsoft Visual C++ Redistributable
-- Visit [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170) and download the latest `x64` version.
-![Redistributable](https://github.com/user-attachments/assets/8d9d4ae9-5af7-48ff-a83c-fefdbdeb72da)
+Open any browser and type localhost or 127.0.0.1 to see the IIS welcome page.
 
+2. Download and Install PHP
+Visit the PHP Downloads page.
 
-### 7. Download MySQL Community Edition
+Download the ZIP file: PHP 8.2 (8.2.26) VS16 x64 Non Thread Safe.
 
-1. Go to [MySQL Downloads](https://dev.mysql.com/downloads/file/?id=536356).
-   ![image](https://github.com/user-attachments/assets/ed53bed8-e406-42e7-ba15-eba8a6c391a6)
-2. Select `Custom` setup.
-3. Expand `MySQL Servers` > `MySQL Server` and select `MySQL Server 8.0.40 - x64`.
-4. Add `MySQL Workbench 8.0.40 - x64`.
-5. Follow the installation steps, setting up the root password when prompted.
+Extract the files:
 
----
+Right-click the downloaded ZIP file and select Extract All.
 
-### 8. Setup Database for osTicket
-1. Once MySQL Workbench is open, create a schema named `osticket`.
+Create a folder named C:\php and extract the files there.
 
-### 9. Download and Configure osTicket
-1. Download osTicket from [GitHub](https://github.com/osTicket/osTicket/releases/tag/v1.18.1).
-2. Unzip and move the `upload` folder to `C:\inetpub\wwwroot\osTicket`.
-3. Rename `ost-sampleconfig.php` to `ost-config.php`:
-   - Set permissions: Disable inheritance, remove all inherited permissions, add `Everyone` with `Full Control`.
+3. Install PHP Manager
+Download PHP Manager from Google Drive.
 
----
+4. Install URL Rewrite Module
+Download from Microsoft IIS and select the x64 installer.
 
-### 10. Register PHP in IIS
-1. Search for IIS, right-click and run as Admin.
-2. Double-click `PHP Manager`, click `Register new PHP version`, and select `php-cgi.exe` from the `C:\php` directory.
-3. Restart the server.
+5. Install Microsoft Visual C++ Redistributable
+Visit the Microsoft Visual C++ Redistributable page and download the latest x64 version.
 
-### 11. Install osTicket
-1. In IIS, expand `Sites` and navigate to `Default Web Site`.
-2. Click on `osTicket` and browse to `http://localhost/osTicket/setup/install.php`.
+6. Download and Install MySQL Community Edition
+Go to MySQL Downloads.
 
-### 12. Enable PHP Extensions
-- Enable `PHP IMAP`, `Intl`, and `Zend OPcache` extensions through PHP Manager.
+When the "Choosing setup type" screen pops up, select Custom, then click Next.
 
-### 13. Finish osTicket Setup
-1. Complete the web-based setup, providing database and admin information.
+At the Select Products screen, expand MySQL Servers > MySQL Server and select MySQL Server 8.0.40 - x64.
 
----
+Click the -> arrow to add it.
 
-### Cleanup
-1. Delete the `setup` folder from `C:\inetpub\wwwroot\osTicket`.
-2. Set `ost-config.php` permissions to read-only for `Everyone`.
+Expand Applications > MySQL Workbench and add MySQL Workbench 8.0.40 - x64.
 
----
+Click Next.
 
-That should set you up nicely! If there's anything else you need, feel free to ask. Happy coding! 📚💻
+At the Installation screen, click Execute.
+
+When complete, click Next.
+
+At Product Configuration, click Next.
+
+At Type and Networking, leave the default value and click Next.
+
+Leave the default selection at Authentication Method and click Next.
+
+Add a password for root and click Next.
+
+At the Windows Service screen, leave the default and click Next.
+
+At Server File Permissions, leave the default and click Next.
+
+At Apply Configuration, click Execute.
+
+Click Finish when complete.
+
+7. Setup Database for osTicket
+Once the download is complete, open MySQL Workbench or it might open itself.
+
+There should be a connection—click it and log in.
+
+Once logged in, right in the Schemas area, select Create Schema and name it osticket.
+
+Click Apply.
+
+Click on the Schema tab under Navigator, and osticket should be there.
+
+8. Download and Configure osTicket
+Download osTicket from GitHub.
+
+Unzip and move the upload folder to C:\inetpub\wwwroot\osTicket.
+
+Rename ost-sampleconfig.php to ost-config.php:
+
+Right-click ost-config.php and select Properties.
+
+Go to the Security tab and click Advanced.
+
+Disable inheritance and select Remove all inherited permissions from this object.
+
+Click Add, then Select a principal, enter Everyone, and click OK.
+
+Select Full control, click OK, apply the changes, and close the properties window.
+
+9. Register PHP in IIS
+Search for IIS, right-click, and run as Admin.
+
+Double-click PHP Manager, click Register new PHP version, and select php-cgi.exe from the C:\php directory.
+
+Click Desktop-G... Home and then click Restart under Actions/Manage Server.
+
+10. Install osTicket
+In IIS, expand Sites and navigate to Default Web Site.
+
+Click on osTicket and browse to http://localhost/osTicket/setup/install.php.
+
+11. Enable PHP Extensions
+Return to IIS Manager.
+
+Double-click on PHP Manager.
+
+Scroll down to PHP Extensions.
+
+Click Enable or Disable extension.
+
+Scroll down to the disabled section and enable the following extensions:
+
+php_imap.dll
+
+php_opcache.dll
+
+php_intl.dll
+
+Refresh the page for http://localhost/osTicket/setup/install.php and ensure all the extensions except APCu have a green check.
+
+12. Finish osTicket Setup
+Navigate back to http://localhost/osTicket/setup/install.php webpage.
+
+Click the Continue button.
+
+In the setup form, enter:
+
+Helpdesk Name
+
+Default Email
+
+Add admin info.
+
+Add database info:
+
+Leave Table Prefix and Hostname the same.
+
+MySQL Database: osticket
+
+MySQL Username: root
+
+Use the same password you created for MySQL.
+
+Click Install Now.
+
+If successful, you should see a congratulations window. Go to http://localhost/osTicket/scp/login.php and log in using the admin credentials you just created.
+
+Cleanup
+Go to C:\inetpub\wwwroot\osTicket and delete the setup folder.
+
+Go to C:\inetpub\wwwroot\osTicket\include.
+
+Right-click ost-config.php and select Properties.
+
+Go to the Security tab and click Advanced.
+
+Select Everyone under permission entries.
+
+Click Edit, unselect all except Read and Read & execute, then click OK, apply the changes, and close the window.
+
+You can also delete all the ZIP files and folders downloaded during the setup.
