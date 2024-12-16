@@ -2,7 +2,7 @@
 ## This guide covers the necessary prerequisites and steps for installing the open-source help desk ticketing system, osTicket.
 
 
-### 1. Enable IIS on Windows ,Setting Up Localhost
+### 1. Enable IIS on Windows - Setting Up Localhost
 
 1. Go to **Control Panel > Programs > Programs and Features**.
 2. Click on **Turn Windows features on or off**.
