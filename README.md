@@ -41,6 +41,7 @@ Absolutely, here's a well-formatted version for your `README.md` on GitHub:
 
 ### 6. Install Microsoft Visual C++ Redistributable
 - Visit [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170) and download the latest `x64` version.
+![UrlRewrite](https://github.com/user-attachments/assets/6ad6a738-953b-4040-aa1e-85a03d40badb)
 
 ### 7. Download MySQL Community Edition
 1. Go to [MySQL Downloads](https://dev.mysql.com/downloads/file/?id=536356).
