@@ -33,7 +33,7 @@ Absolutely, here's a well-formatted version for your `README.md` on GitHub:
 
 ### 4. Install PHP Manager
 - Download PHP Manager from [Google Drive](https://drive.google.com/file/d/1qyZMk_YTizMGJMVULN_TtCwVY9sxw9lz/view?usp=sharing%3Eis).
-
+![PhpManager](https://github.com/user-attachments/assets/0a01c983-4d3a-4aa6-9b2b-c4a180643e90)
 ### 5. Install URL Rewrite Module
 - Download from [Microsoft IIS](https://www.iis.net/downloads/microsoft/url-rewrite) and select the `x64 installer`.
 
