@@ -14,6 +14,7 @@
    - Expand **Common HTTP Features** and select all.
 
 6. **Testing localhost Setup**: Open any browser and type `localhost` or `127.0.0.1` to see the IIS welcome page.
+![showingLocalHost](https://github.com/user-attachments/assets/3f89469a-3991-4415-bc10-52012494bd81)
 
 ### 2. Download and Install PHP
 
