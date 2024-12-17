@@ -45,6 +45,7 @@
 - Visit the [Microsoft Visual C++ Redistributable Page](https://learn.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170) and download the latest `x64` version.
 
 ### 6. Download and Install MySQL Community Edition
+![mysqldownloading](https://github.com/user-attachments/assets/cd72bb26-f4ac-4059-82c4-dc3e483a0c97)
 
 1. Go to the [MySQL Downloads Page](https://dev.mysql.com/downloads/file/?id=536356).
 2. When the "Choosing setup type" screen pops up, select `Custom`, then click `Next`.
