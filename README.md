@@ -93,6 +93,7 @@
 1. Search for IIS, right-click, and run as Admin.
 2. Double-click `PHP Manager`, click `Register new PHP version`, and select `php-cgi.exe` from the `C:\php` directory.
 3. Click `Desktop-G... Home` and then click `Restart` under `Actions/Manage Server`.
+![register php manager](https://github.com/user-attachments/assets/35b917e2-7da8-4016-b489-43c44ff30313)
 
 
 ### 10. Enable PHP Extensions
