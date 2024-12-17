@@ -127,6 +127,7 @@
 5. Click `Install Now`.
 
 If successful, you should see a congratulations window. Go to `http://localhost/osTicket/scp/login.php` and log in using the admin credentials you just created.
+![finishing osticket setup](https://github.com/user-attachments/assets/fbc83acd-eea8-4505-a3ed-df8520ad2ec4)
 
 ### Cleanup
 
