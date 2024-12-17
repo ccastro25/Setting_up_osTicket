@@ -86,6 +86,7 @@
    - Disable inheritance and select `Remove all inherited permissions from this object`.
    - Click `Add`, then `Select a principal`, enter `Everyone`, and click `OK`.
    - Select `Full control`, click `OK`, apply the changes, and close the properties window.
+![permissionand rename ost](https://github.com/user-attachments/assets/819b47f9-2774-41e3-9125-e086605a98b5)
 
 ### 9. Register PHP in IIS
 
