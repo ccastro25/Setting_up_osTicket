@@ -26,6 +26,7 @@
    - Create a folder `C:\php` and extract the files there.
 
 ### 3. Install PHP Manager
+![phpManager](https://github.com/user-attachments/assets/36ec2b0b-1a5a-42c1-95a2-9d301a2aa288)
 
 - Download PHP Manager from [Google Drive](https://drive.google.com/file/d/1qyZMk_YTizMGJMVULN_TtCwVY9sxw9lz/view?usp=sharing%3Eis).
 
