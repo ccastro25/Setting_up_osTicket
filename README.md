@@ -3,6 +3,7 @@
 
 
 ### 1. Enable IIS on Windows - Setting Up Localhost
+![Setting_UP_localhost](https://github.com/user-attachments/assets/2d1a8bf7-a510-46af-973b-25541dac4500)
 
 1. Go to **Control Panel > Programs > Programs and Features**.
 2. Click on **Turn Windows features on or off**.
