@@ -80,6 +80,7 @@
 2. Unzip and move the `upload` folder to `C:\inetpub\wwwroot\osTicket`.![download osticket](https://github.com/user-attachments/assets/d94cc97c-fcb9-41a5-bb7c-e4e5de22f9d5)
 
 3. Rename `ost-sampleconfig.php` to `ost-config.php`:
+   - In File Explore go to `C:\inetpub\wwwroot\osTicket\include`
    - Right-click `ost-config.php` and select `Properties`.
    - Go to the `Security` tab and click `Advanced`.
    - Disable inheritance and select `Remove all inherited permissions from this object`.
