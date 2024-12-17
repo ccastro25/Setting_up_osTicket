@@ -94,13 +94,9 @@
 2. Double-click `PHP Manager`, click `Register new PHP version`, and select `php-cgi.exe` from the `C:\php` directory.
 3. Click `Desktop-G... Home` and then click `Restart` under `Actions/Manage Server`.
 
-### 10. Install osTicket
 
-1. In IIS, expand `Sites` and navigate to `Default Web Site`.
-2. Click on `osTicket` and browse to `http://localhost/osTicket/setup/install.php`.
-
-### 11. Enable PHP Extensions
-
+### 10. Enable PHP Extensions
+0. go to `http://localhost/osTicket/setup/install.php`. to see missing        extensions
 1. Return to IIS Manager.
 2. Double-click on `PHP Manager`.
 3. Scroll down to `PHP Extensions`.
@@ -111,7 +107,7 @@
    - `php_intl.dll`
 6. Refresh the page for `http://localhost/osTicket/setup/install.php` and ensure all the extensions except APCu have a green check.
 
-### 12. Finish osTicket Setup
+### 11. Finish osTicket Setup
 
 1. Navigate back to `http://localhost/osTicket/setup/install.php` webpage.
 2. Click the `Continue` button.
