@@ -76,9 +76,9 @@
 
 ### 8. Download and Configure osTicket
 
-1. Download osTicket from [GitHub Releases](https://github.com/osTicket/osTicket/releases/tag/v1.18.1).![download osticket](https://github.com/user-attachments/assets/d94cc97c-fcb9-41a5-bb7c-e4e5de22f9d5)
+1. Download osTicket from [GitHub Releases](https://github.com/osTicket/osTicket/releases/tag/v1.18.1).
+2. Unzip and move the `upload` folder to `C:\inetpub\wwwroot\osTicket`.![download osticket](https://github.com/user-attachments/assets/d94cc97c-fcb9-41a5-bb7c-e4e5de22f9d5)
 
-2. Unzip and move the `upload` folder to `C:\inetpub\wwwroot\osTicket`.
 3. Rename `ost-sampleconfig.php` to `ost-config.php`:
    - Right-click `ost-config.php` and select `Properties`.
    - Go to the `Security` tab and click `Advanced`.
