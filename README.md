@@ -47,7 +47,7 @@
 ### 6. Download and Install MySQL Community Edition
 
 
-1. Go to the [MySQL Downloads Page](https://dev.mysql.com/downloads/file/?id=536356).![mysqlInstallProcess](https://github.com/user-attachments/assets/d6242071-3ed3-4c98-b72e-19d205cf1a5b)
+1. Go to the [MySQL Downloads Page](https://dev.mysql.com/downloads/file/?id=536356).
 ![mysqldownloading](https://github.com/user-attachments/assets/cd72bb26-f4ac-4059-82c4-dc3e483a0c97)
 2. When the "Choosing setup type" screen pops up, select `Custom`, then click `Next`.
 3. At the `Select Products` screen, expand `MySQL Servers > MySQL Server` and select `MySQL Server 8.0.40 - x64`.
@@ -64,7 +64,7 @@
 14. At `Server File Permissions`, leave the default and click `Next`.
 15. At `Apply Configuration`, click `Execute`.
 16. Click `Finish` when complete.
-
+![mysqlInstallProcess](https://github.com/user-attachments/assets/d6242071-3ed3-4c98-b72e-19d205cf1a5b)
 ### 7. Setup Database for osTicket
 
 1. Once the download is complete, open MySQL Workbench or it might open itself.
