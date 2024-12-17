@@ -17,6 +17,7 @@
 ![showingLocalHost](https://github.com/user-attachments/assets/3f89469a-3991-4415-bc10-52012494bd81)
 
 ### 2. Download and Install PHP
+![downloadingphp](https://github.com/user-attachments/assets/91adb7d7-14ac-4b6a-9267-e686a5b47244)
 
 1. Visit the [PHP Downloads Page](https://windows.php.net/download#php-8.2).
 2. Download the ZIP: **PHP 8.2 (8.2.26) VS16 x64 Non Thread Safe**.
