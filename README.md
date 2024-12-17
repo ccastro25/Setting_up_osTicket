@@ -72,6 +72,7 @@
 3. Once logged in, right in the `Schemas` area, select `Create Schema` and name it `osticket`.
 4. Click `Apply`.
 5. Click on the `Schema` tab under `Navigator`, and `osticket` should be there.
+![creatingdb](https://github.com/user-attachments/assets/a3dbf8cf-9e30-4fab-bead-215680633efd)
 
 ### 8. Download and Configure osTicket
 
