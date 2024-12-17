@@ -32,6 +32,10 @@
 
 ### 4. Install URL Rewrite Module
 
+
+https://github.com/user-attachments/assets/299edfc6-61ad-485a-aa70-946150719850
+
+
 - Download the URL Rewrite Module from [Microsoft IIS](https://www.iis.net/downloads/microsoft/url-rewrite) and select the `x64 installer`.
 
 ### 5. Install Microsoft Visual C++ Redistributable
