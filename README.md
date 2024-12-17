@@ -32,8 +32,9 @@
 
 ### 4. Install URL Rewrite Module
 
+![urlrewrite](https://github.com/user-attachments/assets/83b3decf-6768-4264-919c-23a803ccc97c)
 
-https://github.com/user-attachments/assets/299edfc6-61ad-485a-aa70-946150719850
+
 
 
 - Download the URL Rewrite Module from [Microsoft IIS](https://www.iis.net/downloads/microsoft/url-rewrite) and select the `x64 installer`.
