@@ -108,22 +108,23 @@
    - `php_opcache.dll`
    - `php_intl.dll`
 6. Refresh the page for `http://localhost/osTicket/setup/install.php` and ensure all the extensions except APCu have a green check.
+7. Now, Click the `Continue` button.
 ![php extension](https://github.com/user-attachments/assets/e2c55bcb-54ea-46e9-8e02-82d45223a480)
 
 ### 11. Finish osTicket Setup
 
 1. Navigate back to `http://localhost/osTicket/setup/install.php` webpage.
-2. Click the `Continue` button.
-3. In the setup form, enter:
+
+2. In the setup form, enter:
    - `Helpdesk Name`
    - `Default Email`
-4. Add admin info.
-5. Add database info:
+3. Add admin info.
+4. Add database info:
    - Leave `Table Prefix` and `Hostname` the same.
    - `MySQL Database`: `osticket`
    - `MySQL Username`: `root`
    - Use the same password you created for MySQL.
-6. Click `Install Now`.
+5. Click `Install Now`.
 
 If successful, you should see a congratulations window. Go to `http://localhost/osTicket/scp/login.php` and log in using the admin credentials you just created.
 
