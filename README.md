@@ -107,6 +107,7 @@
    - `php_opcache.dll`
    - `php_intl.dll`
 6. Refresh the page for `http://localhost/osTicket/setup/install.php` and ensure all the extensions except APCu have a green check.
+![php extension](https://github.com/user-attachments/assets/e2c55bcb-54ea-46e9-8e02-82d45223a480)
 
 ### 11. Finish osTicket Setup
 
