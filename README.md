@@ -3,7 +3,7 @@
 
 
 ### 1. Enable IIS on Windows - Setting Up Localhost
-![Setting_UP_localhost](https://github.com/user-attachments/assets/2d1a8bf7-a510-46af-973b-25541dac4500)
+
 
 1. Go to **Control Panel > Programs > Programs and Features**.
 2. Click on **Turn Windows features on or off**.
@@ -12,43 +12,43 @@
 5. Expand **World Wide Web Services**:
    - Expand **Application Development Features** and select **CGI**.
    - Expand **Common HTTP Features** and select all.
-
+![Setting_UP_localhost](https://github.com/user-attachments/assets/2d1a8bf7-a510-46af-973b-25541dac4500)
 6. **Testing localhost Setup**: Open any browser and type `localhost` or `127.0.0.1` to see the IIS welcome page.
 ![showingLocalHost](https://github.com/user-attachments/assets/3f89469a-3991-4415-bc10-52012494bd81)
 
 ### 2. Download and Install PHP
-![downloadingphp](https://github.com/user-attachments/assets/91adb7d7-14ac-4b6a-9267-e686a5b47244)
+
 
 1. Visit the [PHP Downloads Page](https://windows.php.net/download#php-8.2).
 2. Download the ZIP: **PHP 8.2 (8.2.26) VS16 x64 Non Thread Safe**.
 3. Extract the files:
    - Right-click the downloaded ZIP file and select **Extract All**.
    - Create a folder `C:\php` and extract the files there.
-
+![downloadingphp](https://github.com/user-attachments/assets/91adb7d7-14ac-4b6a-9267-e686a5b47244)
 ### 3. Install PHP Manager
-![phpManager](https://github.com/user-attachments/assets/36ec2b0b-1a5a-42c1-95a2-9d301a2aa288)
+
 
 - Download PHP Manager from [Google Drive](https://drive.google.com/file/d/1qyZMk_YTizMGJMVULN_TtCwVY9sxw9lz/view?usp=sharing%3Eis).
-
+![phpManager](https://github.com/user-attachments/assets/36ec2b0b-1a5a-42c1-95a2-9d301a2aa288)
 ### 4. Install URL Rewrite Module
 
-![urlrewrite](https://github.com/user-attachments/assets/83b3decf-6768-4264-919c-23a803ccc97c)
+
 
 
 
 
 - Download the URL Rewrite Module from [Microsoft IIS](https://www.iis.net/downloads/microsoft/url-rewrite) and select the `x64 installer`.
-
+![urlrewrite](https://github.com/user-attachments/assets/83b3decf-6768-4264-919c-23a803ccc97c)
 ### 5. Install Microsoft Visual C++ Redistributable
-![redist](https://github.com/user-attachments/assets/59684505-b17d-4049-bcdd-e4790a966e3e)
+
 
 - Visit the [Microsoft Visual C++ Redistributable Page](https://learn.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170) and download the latest `x64` version.
-
+![redist](https://github.com/user-attachments/assets/59684505-b17d-4049-bcdd-e4790a966e3e)
 ### 6. Download and Install MySQL Community Edition
-![mysqldownloading](https://github.com/user-attachments/assets/cd72bb26-f4ac-4059-82c4-dc3e483a0c97)
+
 
 1. Go to the [MySQL Downloads Page](https://dev.mysql.com/downloads/file/?id=536356).![mysqlInstallProcess](https://github.com/user-attachments/assets/d6242071-3ed3-4c98-b72e-19d205cf1a5b)
-
+![mysqldownloading](https://github.com/user-attachments/assets/cd72bb26-f4ac-4059-82c4-dc3e483a0c97)
 2. When the "Choosing setup type" screen pops up, select `Custom`, then click `Next`.
 3. At the `Select Products` screen, expand `MySQL Servers > MySQL Server` and select `MySQL Server 8.0.40 - x64`.
 4. Click the `->` arrow to add it.
