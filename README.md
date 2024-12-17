@@ -39,6 +39,7 @@ https://github.com/user-attachments/assets/299edfc6-61ad-485a-aa70-946150719850
 - Download the URL Rewrite Module from [Microsoft IIS](https://www.iis.net/downloads/microsoft/url-rewrite) and select the `x64 installer`.
 
 ### 5. Install Microsoft Visual C++ Redistributable
+![redist](https://github.com/user-attachments/assets/59684505-b17d-4049-bcdd-e4790a966e3e)
 
 - Visit the [Microsoft Visual C++ Redistributable Page](https://learn.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170) and download the latest `x64` version.
 
