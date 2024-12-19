@@ -43,7 +43,8 @@
 
 
 - Visit the [Microsoft Visual C++ Redistributable Page](https://learn.microsoft.com/en-gb/cpp/windows/latest-supported-vc-redist?view=msvc-170) and download the latest `x64` version.
-![redist](https://github.com/user-attachments/assets/2578e9fa-de42-44ed-8718-f87953bd196a)
+![redistributable](https://github.com/user-attachments/assets/3a7151a0-b680-4d9d-ab22-3907fd8c59fe)
+
 
 ### 6. Download and Install MySQL Community Edition
 
