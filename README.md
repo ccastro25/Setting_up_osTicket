@@ -147,6 +147,5 @@ You can also delete all the ZIP files and folders downloaded during the setup.
 Happy coding! If you need any further adjustments or additional details, let me know! 🖥️🚀
 
 ---
-
-For detailed instructions on configuring the osTicket system, please refer to [this guide](https://github.com/ccastro25/Configuring_osTicket_System/blob/main/README.md).
+##For detailed instructions on configuring the osTicket system, please refer to [this guide](https://github.com/ccastro25/Configuring_osTicket_System/blob/main/README.md).
 
