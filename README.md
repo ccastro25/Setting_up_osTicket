@@ -1,5 +1,5 @@
 # osTicket - Prerequisites and Installation
-## This guide covers the necessary prerequisites and steps for installing the open-source help desk ticketing system, osTicket.
+#### This guide covers the necessary prerequisites and steps for installing the open-source help desk ticketing system, osTicket.
 
 
 ### 1. Enable IIS on Windows - Setting Up Localhost
